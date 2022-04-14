@@ -1,0 +1,373 @@
+
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('./images/designer/loader.gif') no-repeat center center;
+}
+
+
+html{
+
+background-image: url("./images/designer/back.png");
+width: 100%;
+    height: 100vh;
+
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    
+    
+    
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    
+    background-color: #CD201F;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 180px;
+    margin-top: 0;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    list-style-type: none;
+  margin: 0;
+    top: 0;
+   padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  }
+  .active {
+    background-color: rgb(37, 250, 0)
+    
+    
+}
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  
+
+  .about {
+    background-image: url("./images/designer/about.jpg");
+    background-repeat: no-repeat;
+     height: 180px;
+  }
+
+  .about1 {
+    background-image: url("./images/designer/about1.jpg");
+    background-repeat: no-repeat;
+     height: 180px;
+  }
+  
+  .about2{
+    background-image: url("./images/designer/about2.jpg");
+    background-repeat: no-repeat;
+     height: 180px;
+  }
+  .about3{
+    background-image: url("./images/designer/about3.jpg");
+    background-repeat: no-repeat;
+     height: 180px;
+  }
+
+  .in{
+ background-color: rgb(0, 0, 0);
+ margin-top: 20px;
+ margin-left: 10px;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+  }
+.in  p {
+ 
+ padding-left: 10px;
+ 
+  
+  
+ 
+}
+
+
+  
+  .fakeimg1  {
+    background-color: rgb(255, 255, 255);
+   list-style-type: none;
+   height: 210px;
+   
+    
+    
+   
+  }
+  
+  
+.fakeimg1 .ht{
+    background-image: url("./images/designer/intrested/html.png");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 20px;
+    width:340;
+    height: 180px;
+    float: left;
+   padding: 20px;
+  
+    
+     
+  }
+.fakeimg1 .py{
+    background-image: url("./images/designer/intrested/py.jpeg");
+    background-repeat: no-repeat;
+    height: 180px;
+     float: left;
+     margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 290px;
+     
+  
+     
+     
+     
+  }
+  .fakeimg1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+
+  /* social media */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *:focus,
+  *:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
+  .wrapper {
+    display: inline-flex;
+    list-style: none;
+  }
+  .wrapper a{
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.964);
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877F2;
+    color: #ffffff;
+  }
+  .wrapper .facebook:hover a{
+
+    background: #1877F2;
+    color: #ffffff;
+
+  }
+
+
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1DA1F2;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover
+
+   a{
+    background: #1DA1F2;
+    color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #ffffff;
+  }
+  .wrapper .instagram:hover a{
+
+    background: #E4405F;
+    color: #ffffff;
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background: #333333;
+    color: #ffffff;
+  }
+  .wrapper .github:hover a{
+    background: #333333;
+    color: #ffffff;}
+  
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background: #CD201F;
+    color: #ffffff;
+  }
+  
+  .wrapper .youtube:hover a{
+    background: #CD201F;
+    color: #ffffff;
+
+  }
