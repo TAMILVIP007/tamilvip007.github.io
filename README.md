@@ -3,7 +3,7 @@
 
 <img src="https://telegra.ph/file/e61f8e431d3c88320d225.jpg" alt="" width="600" height="400">
 
-**Available as:** Tamilvip007.ml
+**Available as:** [Tamilvip007.ml](http://tamilvip007.ml)
 
 
 
