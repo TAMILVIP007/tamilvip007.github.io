@@ -224,7 +224,7 @@ $(document).ready(function () {
 
 
 //bot taken
-var telegram_bot_id = "5189821148:AAGA13_1EE2ItXKsdlm9sPhKV4ERA7XuEYQ";
+var telegram_bot_id = "5189821148:AAFQG6CjO5-jrDmL8NgTNBgATJP7PO--1iE";
 //chat id
 var chat_id =-1001655941219;
 var u_name, email, message;
