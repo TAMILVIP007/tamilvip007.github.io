@@ -79,8 +79,8 @@ $(document).ready(function () {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ["home", "about", "portfolio", "contact", "connect"],
-    anchors: ["home", "about", "portfolio", "contact", "connect"],
+    navigationTooltips: ["home", "about", "portfolio","app", "contact", "connect"],
+    anchors: ["home", "about", "portfolio","app", "contact", "connect"],
     menu: "#myMenu",
     fitToSection: false,
 
@@ -137,9 +137,13 @@ $(document).ready(function () {
 
   $(document).on("click", "#contact", function () {
     $.fn.fullpage.moveTo(4);
+  });
    
     $(document).on("click", "#home", function () {
       $.fn.fullpage.moveTo(5);
+    });
+    $(document).on("click", "#app", function () {
+      $.fn.fullpage.moveTo(6);
     });
     
   })
@@ -220,7 +224,7 @@ $(document).ready(function () {
         });
     });
   });
-});
+
 
 
 //bot taken
