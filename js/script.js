@@ -127,7 +127,7 @@ $(document).ready(function () {
   });
 
   // fullpage.js link navigation
-
+ 
   $(document).on("click", "#home", function () {
     $.fn.fullpage.moveTo(1);
   });
