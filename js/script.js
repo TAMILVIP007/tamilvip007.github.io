@@ -77,9 +77,9 @@ $(document).ready(function () {
 
   $("#fullpage").fullpage({
     scrollBar: true,
-    responsiveWidth: 400,
+    responsiveWidth: 300,
     navigation: true,
-    navigationTooltips: ["home", "about", "portfolio","app", "contact", "connect"],
+    navigationTooltips: ["home", "about", "portfolio", "app","contact", "connect"],
     anchors: ["home", "about", "portfolio","app", "contact", "connect"],
     menu: "#myMenu",
     fitToSection: false,
