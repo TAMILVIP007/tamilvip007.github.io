@@ -127,24 +127,24 @@ $(document).ready(function () {
   });
 
   // fullpage.js link navigation
-  $(document).on("click", "#skills", function () {
+
+  $(document).on("click", "#home", function () {
+    $.fn.fullpage.moveTo(1);
+  });
+  $(document).on("click", "#about", function () {
     $.fn.fullpage.moveTo(2);
   });
-
-  $(document).on("click", "#projects", function () {
+ 
+  $(document).on("click", "#portfolio", function () {
     $.fn.fullpage.moveTo(3);
   });
-
-  $(document).on("click", "#contact", function () {
+  $(document).on("click", "#app", function () {
     $.fn.fullpage.moveTo(4);
   });
-   
-    $(document).on("click", "#home", function () {
-      $.fn.fullpage.moveTo(5);
-    });
-    $(document).on("click", "#app", function () {
-      $.fn.fullpage.moveTo(6);
-    });
+  
+  $(document).on("click", "#contact", function () {
+    $.fn.fullpage.moveTo(5);
+  });
     
   })
   ;
